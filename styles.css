@@ -1,0 +1,55 @@
+body {
+  background-color: #F0F8FF; /* AliceBlue - a light, calming blue */
+  font-family: 'Arial', sans-serif;
+  color: #333; /* Dark gray for readability */
+}
+
+/* Header styling with a bold color */
+h1 {
+  color: #FF6347; /* Tomato - a bright, warm red */
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Paragraph styling with a contrasting color */
+p {
+  color: rgb(70, 130, 180); /* SteelBlue - a cool, muted blue */
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* Button styling with a gradient background and hover effect */
+.colorful-button {
+  background: linear-gradient(to right, #8A2BE2, #DA70D6); /* BlueViolet to Orchid gradient */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease; /* Smooth transition on hover */
+}
+
+.colorful-button:hover {
+  background: linear-gradient(to right, #DA70D6, #8A2BE2); /* Reverse gradient on hover */
+}
+
+/* Card or section styling with a soft background and border */
+.colorful-card {
+  background-color: hsla(120, 60%, 70%, 0.8); /* Light green with transparency */
+  border: 1px solid #4CAF50; /* Green border */
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  max-width: 600px;
+}
+
+/* Link styling with a distinct color and no underline */
+a {
+  color: #00BFFF; /* DeepSkyBlue - a bright blue */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover for interactivity */
+}
