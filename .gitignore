@@ -1,0 +1,5 @@
+#whatever filename you mention in this file will not commit and
+#this is used becuase to protect your critical data or files for application etc
+app.log
+secretes.json
+*.log
